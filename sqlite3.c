@@ -109284,6 +109284,7 @@ SQLITE_PRIVATE int sqlite3JournalSize(sqlite3_vfs *pVfs){
 /* #include <errno.h> ** amalgamator: dontcache ** */
 /* #include <unistd.h> ** amalgamator: dontcache ** */
 #include <sys/resource.h> /* amalgamator: dontcache */
+#include <stdint.h>
 /* #include <sys/mman.h> ** amalgamator: dontcache ** */
 #endif
 #endif
